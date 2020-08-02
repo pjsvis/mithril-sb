@@ -1,4 +1,8 @@
 import m from 'mithril';
+import "tachyons";
+import "./css/tachyons-ext.css"
+import './css/app.css'
+
 import { action } from '@storybook/addon-actions';
 import Box from './Box';
 
