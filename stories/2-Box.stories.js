@@ -5,7 +5,7 @@ import './css/app.css'
 
 import { action } from '@storybook/addon-actions';
 import Box from './Box';
-
+import Temp from './Temp'
 
 export default {
   title: 'Box',
@@ -14,4 +14,8 @@ export default {
 
 export const Text = () => ({
   view: () => m(Box, 'Hello Box'),
+});
+
+export const Styled = () => ({
+  view: () => m(Temp, 'Hello Styled Box'),
 });
