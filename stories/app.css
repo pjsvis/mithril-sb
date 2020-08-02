@@ -1,0 +1,12 @@
+/* <see>https://alistapart.com/article/axiomatic-css-and-lobotomized-owls/ */
+*: not(flex) + *: not(flex) {
+  margin-top: 1.5em;
+}
+
+body {
+  margin:0;
+  padding: 1em;
+  /* background-color: #333333;
+  color: white; */
+  font-family: sans-serif;
+}
