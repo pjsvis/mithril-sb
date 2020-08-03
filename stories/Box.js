@@ -1,7 +1,5 @@
 /** @jsx m */
-
 import m from "mithril";
-
 
 const Box = {
    view: (vnode) => (   
