@@ -9,19 +9,19 @@ export default {
 };
 
 export const Text = () => ({
-  view: () => m(Button, { onclick: action('clicked') }, 'Hello Button'),
+  view: () => m(Button, 'Hello Button'),
 });
 
 export const Emoji = () => ({
   view: () =>
     m(
-      Button, { onclick: action('clicked') },
+      Button,
       m('span', { role: 'img', ariaLabel: 'so cool' }, '😀 😎 👍 💯')
     ),
 });
 
 export const TachyonsButton = () => ({
-  view: () => m(Button, { onclick: action('clicked') }, 'Tachyons Button'),
+  view: () => m(Button, 'Tachyons Button'),
 });
 
 // export const DivEx = () => {

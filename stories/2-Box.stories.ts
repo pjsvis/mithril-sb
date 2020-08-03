@@ -32,5 +32,5 @@ export const Styled = () => ({
 });
 
 export const StyledBlue = () => ({
-  view: () => ( m(Temp, {bg: 'bg-blue'}, 'Hello Blue Styled Box')),
+  view: () => ([ m(Temp, 'Hello Blue Styled Box'), m('.pt2 f6','Figure out how to pass attrs to tsx component')]),
 });
