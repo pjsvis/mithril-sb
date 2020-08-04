@@ -1,5 +1,4 @@
 /** @jsx m */
-
 import m from 'mithril';
 
 const style = {

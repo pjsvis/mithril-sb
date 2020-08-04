@@ -14,8 +14,7 @@ export const Text = () => ({
 
 export const Emoji = () => ({
   view: () =>
-    m(
-      Button,
+    m(Button,
       m('span', { role: 'img', ariaLabel: 'so cool' }, '😀 😎 👍 💯')
     ),
 });

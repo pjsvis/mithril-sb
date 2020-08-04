@@ -12,7 +12,7 @@ export default {
     notes: `
 ## Box notes
 - The box is a div with some tachyons styling
-- Background colour can be changed via component attributes
+- Background colour can be changed via component attributes (NOT!)
 
 ## todo
 - [] support *.ts files
